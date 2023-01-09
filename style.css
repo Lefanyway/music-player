@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+  color: white;
+}
+
+body {
+  background-color: #161616;
+}
+
+/* resolução das imagens */
+
+.image-carti {
+  width: 189px;
+  border-radius: 6px;
+}
+
+.image-carti2 {
+  width: 100px;
+}
+.image-carti3 {
+  width: 100px;
+}
+
+/* Caixa central */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  width: 670px;
+  height: 600px;
+}
+
+/* Player 1 */
+
+.player1 {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+  height: 505px;
+  padding: 34px;
+  gap: 39px;
+  border-radius: 9.6px;
+}
+
+.titulo-musica {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  text-align: center;
+}
+
+.titulo-musica h1 {
+  font-weight: 700;
+  font-size: 24.0074px;
+  line-height: 100%;
+  color: #e1e1e6;
+}
+
+.titulo-musica h3 {
+  font-weight: 400;
+  font-size: 19.2059px;
+  line-height: 100%;
+  color: #8c8b8b;
+}
+
+/* Player 2 */
+
+.player2 {
+  width: 370px;
+  height: 270px;
+  padding: 29px;
+  background-color: #000000;
+  border-radius: 6px;
+  margin-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+}
+
+.titulo-musica2 h1 {
+  font-weight: 700;
+  font-size: 24.0074px;
+  line-height: 100%;
+  color: #e1e1e6;
+}
+
+.image-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 29px;
+  gap: 29px;
+}
+
+/* Player 3  */
+
+.player-3 {
+  width: 370px;
+  height: 217px;
+  padding: 29px;
+  background-color: #000000;
+  border-radius: 6px;
+  margin-top: 32px;
+}
+
+.content-player2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 29px;
+  padding: 0px 10px 29px 0px;
+}
